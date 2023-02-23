@@ -1,0 +1,29 @@
+Dependencies for Project 'Lab6p1', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\core_cm4_constants.s)(0x570FE2EA)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_Target_1-IC:\Apps\Keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Apps\Keil_v5\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32L476xx SETA 1" --pd "_RTE_ SETA 1"--list .\listings\core_cm4_constants.lst --xref -o .\objects\core_cm4_constants.o --depend .\objects\core_cm4_constants.d)
+F (.\jstick.s)(0x63619BFD)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_Target_1-IC:\Apps\Keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Apps\Keil_v5\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32L476xx SETA 1" --pd "_RTE_ SETA 1"--list .\listings\jstick.lst --xref -o .\objects\jstick.o --depend .\objects\jstick.d)
+I (core_cm4_constants.s)(0x570FE2EA)
+I (stm32l476xx_constants.s)(0x563FF2AA)
+F (.\main.s)(0x636AF98C)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_Target_1-IC:\Apps\Keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Apps\Keil_v5\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32L476xx SETA 1" --pd "_RTE_ SETA 1"--list .\listings\main.lst --xref -o .\objects\main.o --depend .\objects\main.d)
+I (core_cm4_constants.s)(0x570FE2EA)
+I (stm32l476xx_constants.s)(0x563FF2AA)
+I (jstick.h)(0x63619BFD)
+I (leds.h)(0x5D5C3EBE)
+I (rgb60_redact.h)(0x636ADF7C)
+I (timer.h)(0x636AEE62)
+F (.\startup_stm32l476xx.s)(0x5702720E)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_Target_1-IC:\Apps\Keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Apps\Keil_v5\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32L476xx SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32l476xx.lst --xref -o .\objects\startup_stm32l476xx.o --depend .\objects\startup_stm32l476xx.d)
+F (.\stm32l476xx_constants.s)(0x563FF2AA)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_Target_1-IC:\Apps\Keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Apps\Keil_v5\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32L476xx SETA 1" --pd "_RTE_ SETA 1"--list .\listings\stm32l476xx_constants.lst --xref -o .\objects\stm32l476xx_constants.o --depend .\objects\stm32l476xx_constants.d)
+F (.\jstick.h)(0x63619BFD)()
+F (.\leds.h)(0x5D5C3EBE)()
+F (.\leds.s)(0x5D5C3D24)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_Target_1-IC:\Apps\Keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Apps\Keil_v5\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32L476xx SETA 1" --pd "_RTE_ SETA 1"--list .\listings\leds.lst --xref -o .\objects\leds.o --depend .\objects\leds.d)
+I (core_cm4_constants.s)(0x570FE2EA)
+I (stm32l476xx_constants.s)(0x563FF2AA)
+F (.\rgb60_redact.s)(0x636AE41A)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_Target_1-IC:\Apps\Keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Apps\Keil_v5\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32L476xx SETA 1" --pd "_RTE_ SETA 1"--list .\listings\rgb60_redact.lst --xref -o .\objects\rgb60_redact.o --depend .\objects\rgb60_redact.d)
+I (core_cm4_constants.s)(0x570FE2EA)
+I (stm32l476xx_constants.s)(0x563FF2AA)
+I (leds.h)(0x5D5C3EBE)
+F (.\rgb60_redact.h)(0x636ADF7C)()
+F (..\timer\timer\timer.s)(0x5D604880)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_Target_1-IC:\Apps\Keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Apps\Keil_v5\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32L476xx SETA 1" --pd "_RTE_ SETA 1"--list .\listings\timer.lst --xref -o .\objects\timer.o --depend .\objects\timer.d)
+I (..\timer\timer\core_cm4_constants.s)(0x570FE2EA)
+I (..\timer\timer\stm32l476xx_constants.s)(0x563FF2AA)
+F (.\timer.h)(0x636AEE62)()
