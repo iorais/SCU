@@ -33,7 +33,7 @@ void loop() {
     myservo.write(pos);
 
     Serial.println(value);
-    if(value > LIGHT) {//moves dog based depending on light
+    if(value > LIGHT) {//moves dog based on light input
       digitalWrite(wheel, HIGH);
       delay(MOVE);
       digitalWrite(wheel, LOW);
